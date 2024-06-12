@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+.robo {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 120px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
+header h1 a:hover {
+  color: gray;
+}
+
+/* 
+main {
+  padding-top: 50px;
+}
+ */
+
+.anchor {
+  display: block;
+  /* height: 0; */
+  margin-top: 20px;
+  visibility: hidden;
+}
+
+.space1,
+.space2,
+.space3 {
+  padding-top: 50px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+ul li {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project img {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* 
+.validator {
+  text-align: center;
+  position: static;
+  bottom: 20px;
+}
+ */
+
+footer {
+  text-align: center;
+  padding: 5px 0;
+  background-color: #333;
+  color: #fff;
+  position: static;
+  width: 100%;
+  bottom: 0;
+}
